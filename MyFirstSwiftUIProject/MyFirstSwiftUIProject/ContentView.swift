@@ -19,20 +19,6 @@ struct ContentView: View {
         List(contacts, id: \.name) { contact in
             ContactRow(contact: contact)
         }
-        /*
-        VStack(alignment: .leading) {
-            Text("John Appleseed")
-                .font(.title)
-            HStack {
-                Text("iOS developer at Acme Inc.")
-                    .font(.subheadline)
-                Spacer()
-                Text("+1-202-5385-1234")
-                    .font(.subheadline)
-            }
-        }
-        .padding(10)
-         */
     }
 }
 

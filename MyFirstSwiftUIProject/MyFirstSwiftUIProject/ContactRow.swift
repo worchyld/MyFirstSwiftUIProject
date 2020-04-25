@@ -18,7 +18,7 @@ struct ContactRow: View {
             HStack {
                 Text(contact.jobTitle)
                     .font(.subheadline)
-                Spacer(minLength: 5)
+                Spacer()
                 Text(contact.phone)
                     .font(.subheadline)
             }
