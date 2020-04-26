@@ -19,10 +19,12 @@ let sortedContacts = contacts.sorted { (a:Contact, b:Contact) -> Bool in
 }
 
 struct ContentView: View {
-
     var body: some View {
-        List(sortedContacts, id: \.name) { contact in
-            ContactRow(contact: contact)
+        NavigationView {
+            List(sortedContacts, id: \.name) { contact in
+                ContactRow(contact: contact)
+            }
+            .navigationBarTitle(Text("Contacts"))
         }
     }
 }
