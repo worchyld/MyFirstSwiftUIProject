@@ -22,7 +22,9 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             List(sortedContacts, id: \.name) { contact in
-                ContactRow(contact: contact)
+                NavigationLink(destination: ContactDetail(contact: contact)) {
+                    ContactRow(contact: contact)
+                }
             }
             .navigationBarTitle(Text("Contacts"))
         }
