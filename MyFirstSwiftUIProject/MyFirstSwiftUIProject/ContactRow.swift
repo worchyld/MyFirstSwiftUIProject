@@ -25,21 +25,3 @@ struct ContactRow: View {
         }
     }
 }
-
-struct ContactDetail: View {
-    var contact: Contact
-
-    var body: some View {
-        VStack {
-            VStack {
-                Text(contact.name)
-                    .font(.title)
-            }
-            VStack {
-                Text(contact.phone)
-                    .font(.subheadline)
-                Spacer()
-            }
-        }
-    }
-}

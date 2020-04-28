@@ -13,6 +13,7 @@
 		4D5951F8244F27470025B430 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D5951F7244F27470025B430 /* Assets.xcassets */; };
 		4D5951FB244F27470025B430 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D5951FA244F27470025B430 /* Preview Assets.xcassets */; };
 		4D5951FE244F27470025B430 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D5951FC244F27470025B430 /* LaunchScreen.storyboard */; };
+		4D63912F2457CB10003CA141 /* ContactDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D63912E2457CB10003CA141 /* ContactDetail.swift */; };
 		4DA1DDDE2454FDE3006A2331 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA1DDDD2454FDE3006A2331 /* Contact.swift */; };
 		4DA1DDE02454FE84006A2331 /* ContactRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA1DDDF2454FE84006A2331 /* ContactRow.swift */; };
 /* End PBXBuildFile section */
@@ -26,6 +27,7 @@
 		4D5951FA244F27470025B430 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4D5951FD244F27470025B430 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D5951FF244F27470025B430 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D63912E2457CB10003CA141 /* ContactDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetail.swift; sourceTree = "<group>"; };
 		4DA1DDDD2454FDE3006A2331 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		4DA1DDDF2454FE84006A2331 /* ContactRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,6 +67,7 @@
 				4D5951F5244F27450025B430 /* ContentView.swift */,
 				4DA1DDDD2454FDE3006A2331 /* Contact.swift */,
 				4DA1DDDF2454FE84006A2331 /* ContactRow.swift */,
+				4D63912E2457CB10003CA141 /* ContactDetail.swift */,
 				4D5951F7244F27470025B430 /* Assets.xcassets */,
 				4D5951FC244F27470025B430 /* LaunchScreen.storyboard */,
 				4D5951FF244F27470025B430 /* Info.plist */,
@@ -153,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DA1DDDE2454FDE3006A2331 /* Contact.swift in Sources */,
+				4D63912F2457CB10003CA141 /* ContactDetail.swift in Sources */,
 				4DA1DDE02454FE84006A2331 /* ContactRow.swift in Sources */,
 				4D5951F2244F27450025B430 /* AppDelegate.swift in Sources */,
 				4D5951F4244F27450025B430 /* SceneDelegate.swift in Sources */,
