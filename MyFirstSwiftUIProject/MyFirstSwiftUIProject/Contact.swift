@@ -10,7 +10,7 @@ import Foundation
 
 // Contact model
 struct Contact {
-    var name:String
-    var jobTitle:String
-    var phone:String
+    let name:String
+    let jobTitle:String
+    let phone:String
 }
