@@ -9,7 +9,7 @@
 import SwiftUI
 
 struct ContactDetail: View {
-    var contact: Contact
+    let contact: Contact
 
     var body: some View {
         VStack {
@@ -25,3 +25,11 @@ struct ContactDetail: View {
         }
     }
 }
+
+#if DEBUG
+struct ContactDetail_Previews: PreviewProvider {
+    static var previews: some View {
+        ContactDetail(contact: Contact.init(name: "Alex", jobTitle: "Sales", phone: "555-4123"))
+    }
+}
+#endif
