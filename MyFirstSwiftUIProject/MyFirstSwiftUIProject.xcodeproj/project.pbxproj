@@ -64,8 +64,8 @@
 			children = (
 				4D5951F1244F27450025B430 /* AppDelegate.swift */,
 				4D5951F3244F27450025B430 /* SceneDelegate.swift */,
-				4D5951F5244F27450025B430 /* ContentView.swift */,
 				4DA1DDDD2454FDE3006A2331 /* Contact.swift */,
+				4D5951F5244F27450025B430 /* ContentView.swift */,
 				4DA1DDDF2454FE84006A2331 /* ContactRow.swift */,
 				4D63912E2457CB10003CA141 /* ContactDetail.swift */,
 				4D5951F7244F27470025B430 /* Assets.xcassets */,
